@@ -344,8 +344,14 @@ Ensures kubectl commands affect your Minikube cluster
 
 Should show 1 node ready
 
+Push these deployment.yaml and service.yaml files to the GitHub repo using 
+~~~
+git add deployment.yaml service.yaml
+git commit -m "deployment files"
+git push origin main
+~~~
 
-Apply Kubernetes manifests
+Now Apply Kubernetes manifests
 ~~~
 kubectl apply -f deployment.yaml
 kubectl apply -f service.yaml
