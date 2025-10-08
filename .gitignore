@@ -40,3 +40,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 k8s/minikube-linux-amd64
+k8s/minikube-linux-amd64
